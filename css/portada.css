@@ -1,0 +1,60 @@
+@import url(./variables.css);
+
+.portada {
+  width: 100%;
+}
+
+.contenedor-portada {
+  width: 100%;
+  height: 30rem;
+  background-image: url(../assets/imgs/Hero.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.contenedor-info-portada {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 2rem;
+}
+
+.titulo-portada {
+  font-size: 3rem;
+  color: #fff;
+}
+
+.parrafo-portada {
+  color: #fff;
+  margin-top: 2rem;
+  font-size: 1.3rem;
+}
+
+.btn-portada {
+  padding: 0.8rem 1.5rem;
+  width: max-content;
+  background-color: var(--celeste);
+  font-size: 0.9rem;
+  color: #fff;
+  text-decoration: none;
+  margin-top: 1.5rem;
+}
+
+@media screen and (max-width: 940px) {
+  .contenedor-portada {
+    height: 20rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .titulo-portada {
+    font-size: 2rem;
+  }
+
+  .parrafo-portada {
+    font-size: 1.1rem;
+  }
+}

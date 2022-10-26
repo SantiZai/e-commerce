@@ -1,0 +1,147 @@
+@import url(./variables.css);
+
+.acerca {
+  margin-top: 5rem;
+  padding: 5rem;
+  width: 100%;
+  background-color: var(--colorFooter);
+}
+
+.contenedor-acerca {
+  margin: auto;
+  width: 80%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+}
+
+.contenedor-logo-acerca {
+  width: 30%;
+}
+
+.img-logo-acerca {
+  width: 100%;
+}
+
+.contenedor-links-interes {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.link-acerca {
+  text-decoration: none;
+  color: var(--colorFuenteProds);
+  font-weight: 500;
+}
+
+.contenedor-contacto {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1rem;
+}
+
+.hable-con {
+  color: var(--colorFuenteProds);
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
+label span,
+label input {
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.inputs label {
+  display: block;
+  width: 100%;
+  border: 2px solid silver;
+  padding: 8px 10px;
+  position: relative;
+  border-radius: 4px;
+  transition: 0.25s;
+}
+
+.inputs label:hover {
+  cursor: text;
+}
+
+.inputs label input {
+  display: block;
+  width: 100%;
+  border: none;
+  background: transparent;
+  outline: none;
+}
+
+label span {
+  color: silver;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  transition: 0.25s;
+}
+
+.inputs label.focus {
+  border-color: var(--colorFuenteProds);
+}
+
+label span.focus {
+  color: var(--colorFuenteProds);
+}
+
+label span.top {
+  left: 2px;
+  top: -10px;
+  font-size: 12px;
+  background: var(--colorFooter);
+  padding: 0 5px;
+}
+
+.btn-enviar-msj {
+  text-decoration: none;
+  width: max-content;
+  padding: 1rem 1.5rem;
+  background-color: var(--celeste);
+  color: #fff;
+}
+
+footer {
+  width: 100%;
+  text-align: center;
+  padding: 1rem 0;
+  color: var(--colorFuenteProds);
+  font-weight: 700;
+}
+
+.span-footer {
+  line-height: 1.5;
+}
+
+@media screen and (max-width: 940px) {
+  .contenedor-acerca {
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .contenedor-logo-acerca {
+    width: 90%;
+    margin: auto;
+  }
+
+  .contenedor-links-interes {
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+  }
+
+  .contenedor-contacto {
+    margin: auto;
+    margin-top: 2rem;
+    width: 90%;
+  }
+}
