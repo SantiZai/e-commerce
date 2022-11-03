@@ -1,0 +1,52 @@
+.body-productos {
+    background-color: #f5f5f5;
+}
+
+.productos {
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 5rem 0;
+}
+
+.agregar-productos {
+    margin: auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titulo-agregar,
+.btn-agregar {
+    margin: auto .5rem 2rem 0;
+}
+
+.container-productos {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 90%;
+}
+
+.container-icons {
+    width: 10%;
+    min-width: 150px;
+    position: relative;
+    margin: .5rem;
+}
+
+.contenedor-iconos {
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+
+.icon-admin {
+    width: 15%;
+}
+
+.producto-productos {
+    width: 100%;
+}

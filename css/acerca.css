@@ -91,6 +91,11 @@ label span {
 
 label span.focus {
   color: var(--colorFuenteProds);
+  background-color: var(--grisClaro) !important;
+}
+
+label .inp-foot.focus {
+  background-color: var(--colorFooter) !important;
 }
 
 label span.top {
