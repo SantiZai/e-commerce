@@ -1,0 +1,16 @@
+.container-agregar-producto{
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contenedor-form-agregar{
+    width: 100%;
+}
+.container-button-agregar{
+    text-align: center;
+    padding-top: 2rem;
+}

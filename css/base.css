@@ -4,6 +4,7 @@
 @import url(./acerca.css);
 @import url(./login.css);
 @import url(./productos.css);
+@import url(./agregar.css);
 
 * {
   margin: 0;

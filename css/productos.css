@@ -36,15 +36,11 @@
     margin: .5rem;
 }
 
-.contenedor-iconos {
-    position: absolute;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-}
-
 .icon-admin {
     width: 15%;
+    position: relative;
+    top: 15%;
+    left: 65%;
 }
 
 .producto-productos {

@@ -102,7 +102,7 @@ label span.top {
   left: 2px;
   top: -10px;
   font-size: 12px;
-  background: var(--colorFooter);
+  background: var(--grisClaro);
   padding: 0 5px;
 }
 
